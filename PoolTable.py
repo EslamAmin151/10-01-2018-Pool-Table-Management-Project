@@ -31,7 +31,6 @@ class PoolTable():
 
     def playing_game(self, Table_Num):
         self.Table_Status = True
-        self.Table_Number = Table_Num
         self.Check_In = datetime.datetime.now()
         self.Check_Out= datetime.datetime.now()
         Total_Time_Played = self.Check_Out - self.Check_In
