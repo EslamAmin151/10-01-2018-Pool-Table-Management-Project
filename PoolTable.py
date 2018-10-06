@@ -40,6 +40,11 @@ class PoolTable():
     while True:
         Table = Pool_Tables[Table_Num - 1]
 
+    def ending_game(self, Check_out_Time):
+        userInput  = input("Press click C to check out")
+        self.Check_Out = Check_out_Time
+        self.Table_Status = "Open"
+    Print ("This Table is Open now")
 
     def game_cost(self,Time):
         Cost_Per_Hour == 3
@@ -52,16 +57,12 @@ class PoolTable():
             return float(Time) * Cost_Per_Hour
 
 
-        def ending_game(self, Check_out_Time):
-            userInput  = input("Press click C to check out")
-            self.Check_Out = Check_out_Time
-            self.Table_Status = "Open"
-        Print ("This Table is Open now")
-
 
         def exit_game(self):
              userinput  = input ("Press q to exit")
         print ("Thanks for playing with us Good Bye")
+
 Pool_Tables.starting_pool_table()
 Pool_Tables.ending_game()
+Pool_Tables.game_cost()
 Pool_Tables.exit_game()
