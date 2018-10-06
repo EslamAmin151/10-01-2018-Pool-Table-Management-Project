@@ -21,16 +21,21 @@ class PoolTable():
 
     def description(self):
         print ("Welcome to the fun house %s") % (self.User_Name)
-        Print ("To start game please Enter s"or q to exit")
+        Print ("To start game please Enter s" or q to exit")
 
 
 
-    def starting_pool_table(self,Name):
+    def starting_pool_table(self):
         UserInput = input("Please Enter User Name: ")
-        if UserInput == "":
-            print ("Welcome to Pool Table Game click proceed to start Game")
+        UserInput = input("Please Enter Table_Number: ")
+        self.Table_Status = availability
+        if availability == False and User_Name ="":
+            print "This Table is open now "
+            print ("Welcome to Pool Table Game click c to start Game")
         else:
-            print ("Please Enter Vaild Name")
+            " This Table is Occupied  now please selet different table "
+
+
 
     def playing_game(self, Table_Num):
         self.Table_Status = True
@@ -62,7 +67,7 @@ class PoolTable():
         def exit_game(self):
              userinput  = input ("Press q to exit")
         print ("Thanks for playing with us Good Bye")
-        
+
 Pool_Tables.description()
 Pool_Tables.starting_pool_table()
 Pool_Tables.ending_game()
