@@ -62,3 +62,6 @@ class PoolTable():
         def exit_game(self):
              userinput  = input ("Press q to exit")
         print ("Thanks for playing with us Good Bye")
+Pool_Tables.starting_pool_table()
+Pool_Tables.ending_game()
+Pool_Tables.exit_game()
