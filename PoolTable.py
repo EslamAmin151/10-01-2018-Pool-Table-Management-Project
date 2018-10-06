@@ -27,6 +27,8 @@ class PoolTable():
         UserInput = input("Please Enter User Name: ")
         if Name == "":
             print ("Welcome to Pool Table Game click proceed to start Game")
+        else:
+            print ("Please Enter Vaild Name")
 
     def playing_game(self, Table_Num):
         self.Table_Status = True
