@@ -19,12 +19,15 @@ class PoolTable():
     def __repr__(self):
          return ("Welcome to Pool Table Game %s") % (self.User_Name)
 
+    def description(self):
+        print ("Welcome to the fun house %s") % (self.User_Name)
+        Print ("To start game please Enter s"or q to exit")
+
 
 
     def starting_pool_table(self,Name):
-        self.User_Name = Name
         UserInput = input("Please Enter User Name: ")
-        if Name == "":
+        if UserInput == "":
             print ("Welcome to Pool Table Game click proceed to start Game")
         else:
             print ("Please Enter Vaild Name")
@@ -59,7 +62,8 @@ class PoolTable():
         def exit_game(self):
              userinput  = input ("Press q to exit")
         print ("Thanks for playing with us Good Bye")
-
+        
+Pool_Tables.description()
 Pool_Tables.starting_pool_table()
 Pool_Tables.ending_game()
 Pool_Tables.game_cost()
