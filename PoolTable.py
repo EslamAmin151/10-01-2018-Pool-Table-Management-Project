@@ -21,8 +21,7 @@ class PoolTable():
 
 
 
-    def starting_pool_table(self,User_Name):
-        self.Table_Status = False
+    def starting_pool_table(self,Name):
         self.User_Name = Name
         UserInput = input("Please Enter User Name: ")
         if Name == "":
