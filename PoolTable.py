@@ -31,7 +31,7 @@ class PoolTable():
         self.Table_Status = availability
         if availability == False and User_Name ="":
             print "This Table is open now "
-            print ("Welcome to Pool Table Game click c to start Game")
+            print ("Welcome to Pool Table Game click c to continue")
         else:
             " This Table is Occupied  now please selet different table "
 
