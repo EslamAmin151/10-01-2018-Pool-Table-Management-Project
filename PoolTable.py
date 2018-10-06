@@ -69,7 +69,3 @@ class PoolTable():
         print ("Thanks for playing with us Good Bye")
 
 Pool_Tables.description()
-Pool_Tables.starting_pool_table()
-Pool_Tables.ending_game()
-Pool_Tables.game_cost()
-Pool_Tables.exit_game()
